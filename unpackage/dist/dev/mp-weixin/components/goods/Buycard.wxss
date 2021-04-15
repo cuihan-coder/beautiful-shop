@@ -1,0 +1,185 @@
+
+.buycard-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 120rpx;
+	padding: 0 30rpx 0 50rpx;
+}
+.buycard-title .title {
+	color: #000000;
+	font-size: 50rpx;
+}
+.buycard-title .play-menu {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.buycard-title .play-menu view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.buycard-title .play-menu view:nth-child(1) {
+	margin-right: 20rpx;
+	color: #666666;
+	font-size: 30rpx;
+}
+.buycard-title .play-menu view:nth-child(1) text {
+	padding: 0 24rpx 0 0;
+	border-right: 1rpx solid #cccccc;
+}
+.buycard-title .play-menu view:nth-child(2) {
+	color: #333333;
+	font-size: 30rpx;
+}
+.buycard-goodsinfo {
+	background: #ffffff;
+	margin: 20rpx auto 0;
+	width: 90%;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	padding: 30rpx 20rpx;
+}
+.buycard-goodsinfo .item-top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+}
+.buycard-goodsinfo .item-top image {
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.buycard-goodsinfo .item-top view {
+	margin-left: 10rpx;
+}
+.buycard-goodsinfo .item-top view > view:nth-child(1) {
+	color: #333333;
+	font-size: 36rpx;
+}
+.buycard-goodsinfo .item-top view > view:nth-child(2) {
+	color: #363636;
+	font-size: 33rpx;
+	font-weight: 600;
+}
+.buycard-goodsinfo .item-bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-top: 40rpx;
+}
+.buycard-goodsinfo .item-bottom .specifications {
+	background: #f7f7f7;
+	padding: 14rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	color: #666666;
+	font-size: 30rpx;
+}
+.buycard-goodsinfo .item-bottom view:nth-child(2) {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	width: 196rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.buycard-goodsinfo .item-bottom input {
+	text-align: center;
+}
+.buycard-notify {
+	position: fixed;
+	left: 5%;
+	z-index: 102;
+	width: 90%;
+	top: 75%;
+}
+.buycard-price-btn {
+	position: fixed;
+	bottom: 60rpx;
+	left: 5%;
+	width: 90%;
+	height: 90rpx;
+	z-index: 102;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.buycard-price-btn view:nth-child(1) {
+	width: 76%;
+	height: 100%;
+	background: #333333;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-border-radius: 50rpx 0 0 50rpx;
+	        border-radius: 50rpx 0 0 50rpx;
+	color: #ffcf4f;
+}
+.buycard-price-btn view:nth-child(1) text:nth-child(1) {
+	padding-left: 30rpx;
+	font-size: 40rpx;
+}
+.buycard-price-btn view:nth-child(1) text:nth-child(2) {
+	font-size: 48rpx;
+	font-weight: 500;
+	padding-left: 10rpx;
+}
+.buycard-price-btn view:nth-child(2) {
+	    width: 40%;
+	    height: 100%;
+	    background: #FFCF4F;
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-box-align: center;
+	    -webkit-align-items: center;
+	            align-items: center;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+	    -webkit-border-radius: 0 50rpx 50rpx 0;
+	            border-radius: 0 50rpx 50rpx 0;
+	    font-size: 32rpx;
+	    font-weight: 500;
+		color: #333333;
+}
+

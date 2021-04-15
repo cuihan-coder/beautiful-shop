@@ -1,0 +1,1 @@
+<view class="readlog-container" id="container"><block wx:for="{{4}}" wx:for-item="item" wx:for-index="__i0__"><view class="anmation" style="{{('animation:touphidden 10s  linear '+item*2+'s')}}"><view class="read-info"><image src="../../static/image/find-click.png"></image><view class="name"><text>崔韩</text><text>14天谴</text><view>看了：很么什么产品</view></view></view></view></block></view>

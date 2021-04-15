@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "buycard": "/components/goods/Buycard",
+    "select-spec": "/components/goods/SelectSpec"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "生成优惠券",
+  "navigationBarBackgroundColor": "#EDFCFF",
+  "usingComponents": {
+    "pub-footer": "/components/public/footer",
+    "select-goods": "/components/find/select-goods",
+    "placeholderheight": "/components/public/placeholderheight"
+  }
+}

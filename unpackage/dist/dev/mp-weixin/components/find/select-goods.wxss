@@ -1,0 +1,50 @@
+
+.orderListCom-filter-btn {	
+	position: -webkit-sticky;	
+	position: sticky;
+	top: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 30rpx;
+	background-color: #fff;
+}
+.sg-van-search{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 112rpx;
+}
+.sg-goods-name{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 10rpx 30rpx;
+	margin-top: 20rpx;
+	background: #F7F7F7;
+}
+.sg-goods-name image {
+	width: 80rpx;
+	height: 80rpx;
+}
+.sg-goods-name text {
+	font-size: 30rpx;
+	color: #333;
+}
+.sg-multi{
+	padding: 30rpx;
+}
+.sg-checkbox{
+	margin-top: 10rpx;
+	font-size: 34rpx;
+	color: #000000;
+}
+

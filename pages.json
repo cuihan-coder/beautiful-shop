@@ -1,0 +1,260 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		//财务
+		{
+			"path": "pages/my/caiwu",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//订单主页
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//拆包列表
+		{
+			"path": "pages/order/chaibao",
+			"style": {
+				"navigationBarTitleText": "拆包列表",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		//我的包包
+		{
+			"path": "pages/order/baobao",
+			"style": {
+				"navigationBarTitleText": "我的包包",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+
+		//用户中心
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//提现
+		{
+			"path": "pages/my/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor": "#F7F7F7"
+			}
+		},
+		{
+			"path": "pages/find/createvoucher",
+			"style": {
+				"navigationBarTitleText": "生成优惠券",
+				"navigationBarBackgroundColor": "#EDFCFF"
+			}
+		},
+		{
+			"path": "pages/find/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//我的优惠券
+		{
+			"path": "pages/find/myvoucher",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#EDFCFF"
+			}
+		},
+		//我生成的优惠券
+		{
+			"path": "pages/find/mycreatevoucher",
+			"style": {
+				"navigationBarTitleText": "优惠券",
+				"navigationBarBackgroundColor": "#EDFCFF"
+			}
+		},
+		//看商品的人的日志界面
+		{
+			"path": "pages/find/readLog",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": ""
+			}
+		},
+		//发现首页
+		{
+			"path": "pages/find/banghuilist",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "帮会圈"
+			}
+		},
+
+		//订单列表
+		{
+			"path": "pages/order/orderList",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": ""
+			}
+		},
+		//首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		{
+			// 商品详情
+			"path": "pages/business/goodsinfo",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			// 添加收货地址界面
+			"path": "pages/my/addreceiveArea",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#ffffff"
+			}
+		},
+		{
+			// 购物车结算界面
+			"path": "pages/business/cartToOrder",
+			"style": {
+				"navigationBarTitleText": "正在下单",
+				"navigationBarBackgroundColor": "#FFCF4F"
+			}
+		},
+
+		{
+			//收货地址
+			"path": "pages/index/receiveArea",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "自提设置",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			//我的收货地址
+			"path": "pages/index/myReceiveArea",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "自提点管理",
+				"navigationBarBackgroundColor": "#F7F7F7"
+			}
+		},
+		{
+			//添加收货地址
+			"path": "pages/index/addreceiveArea",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "upx自提点",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			//选择封面
+			"path": "pages/index/selectgoodsPic",
+			"style": {
+				"navigationStyle": "default",
+				"navigationBarTitleText": "选择封面",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": { //这里为方便，全局引入了所有组件，也可以在某个page下单独引用某个组件
+			"demo-block": "/wxcomponents/vant/demo-block/index",
+			"van-action-sheet": "/wxcomponents/vant/action-sheet/index",
+			"van-area": "/wxcomponents/vant/area/index",
+			// "van-badge": "/wxcomponents/vant/badge/index",
+			// "van-badge-group": "/wxcomponents/vant/badge-group/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-card": "/wxcomponents/vant/card/index",
+			"van-cell": "/wxcomponents/vant/cell/index",
+			"van-cell-group": "/wxcomponents/vant/cell-group/index",
+			"van-checkbox": "/wxcomponents/vant/checkbox/index",
+			"van-checkbox-group": "/wxcomponents/vant/checkbox-group/index",
+			"van-col": "/wxcomponents/vant/col/index",
+			"van-dialog": "/wxcomponents/vant/dialog/index",
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-goods-action": "/wxcomponents/vant/goods-action/index",
+			"van-goods-action-icon": "/wxcomponents/vant/goods-action-icon/index",
+			"van-goods-action-button": "/wxcomponents/vant/goods-action-button/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-loading": "/wxcomponents/vant/loading/index",
+			"van-nav-bar": "/wxcomponents/vant/nav-bar/index",
+			"van-notice-bar": "/wxcomponents/vant/notice-bar/index",
+			"van-notify": "/wxcomponents/vant/notify/index",
+			"van-panel": "/wxcomponents/vant/panel/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-progress": "/wxcomponents/vant/progress/index",
+			"van-radio": "/wxcomponents/vant/radio/index",
+			"van-radio-group": "/wxcomponents/vant/radio-group/index",
+			"van-row": "/wxcomponents/vant/row/index",
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-slider": "/wxcomponents/vant/slider/index",
+			"van-stepper": "/wxcomponents/vant/stepper/index",
+			"van-steps": "/wxcomponents/vant/steps/index",
+			"van-submit-bar": "/wxcomponents/vant/submit-bar/index",
+			"van-swipe-cell": "/wxcomponents/vant/swipe-cell/index",
+			"van-switch": "/wxcomponents/vant/switch/index",
+			// "van-switch-cell": "/wxcomponents/vant/switch-cell/index",
+			"van-tab": "/wxcomponents/vant/tab/index",
+			"van-tabs": "/wxcomponents/vant/tabs/index",
+			"van-tabbar": "/wxcomponents/vant/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/vant/tabbar-item/index",
+			"van-tag": "/wxcomponents/vant/tag/index",
+			"van-toast": "/wxcomponents/vant/toast/index",
+			"van-transition": "/wxcomponents/vant/transition/index",
+			"van-tree-select": "/wxcomponents/vant/tree-select/index",
+			"van-datetime-picker": "/wxcomponents/vant/datetime-picker/index",
+			"van-rate": "/wxcomponents/vant/rate/index",
+			"van-collapse": "/wxcomponents/vant/collapse/index",
+			"van-collapse-item": "/wxcomponents/vant/collapse-item/index",
+			"van-picker": "/wxcomponents/vant/picker/index",
+			"van-skeleton": "/wxcomponents/vant/skeleton/index",
+			"van-overlay": "/wxcomponents/vant/overlay/index"
+
+		}
+	}
+	// ,
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#666666",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{	
+	// 		"pagePath": "pages/index/index",
+	// 		"iconPath": "static/image/index.png",
+	// 		"selectedIconPath": "static/image/index-click.png",
+	// 		"text": "首页"
+	// 	}, {
+	// 		"pagePath": "pages/order/index",
+	// 		"iconPath": "static/image/order.png",
+	// 		"selectedIconPath": "static/image/order-click.png",
+	// 		"text": "订单"
+	// 	}, {
+	// 		"pagePath": "pages/find/index",
+	// 		"iconPath": "static/image/find.png",
+	// 		"selectedIconPath": "static/image/find-click.png",
+	// 		"text": "发现"
+	// 	}, {
+	// 		"pagePath": "pages/my/index",
+	// 		"iconPath": "static/image/my.png",
+	// 		"selectedIconPath": "static/image/my-click.png",
+	// 		"text": "我的"
+	// 	}]
+	// }
+}

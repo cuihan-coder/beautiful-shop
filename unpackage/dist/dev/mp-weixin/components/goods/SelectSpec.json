@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "placeholder-height": "/components/public/placeholderheight"
+  }
+}

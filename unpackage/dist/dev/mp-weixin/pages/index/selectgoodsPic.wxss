@@ -1,0 +1,79 @@
+
+page {
+	background: #ffffff;
+}
+.select-good-pic{
+	margin-top:40rpx;
+	padding: 30rpx;
+}
+.select-good-pic-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.select-good-pic-title view:nth-child(1){
+	color: #000000;
+	font-size: 44rpx;
+	font-weight: 500;
+}
+.van-button__text{
+	color: #000000;
+}
+.select-good-pic-block{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 30rpx;
+}
+.select-good-pic-default {
+	width: calc(50% - 20rpx);
+	height: 100%;
+	position: relative;
+	padding: 2rpx;
+	border: 4rpx solid #ffffff;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	opacity: 0.4;
+}
+.select-good-pic-default::before{ content: ""; padding-top: 100%; vertical-align: middle; display: block;}
+.active{
+	border: 4rpx solid #FFCF4F;
+	opacity: 1;
+}
+.select-good-pic-default image{
+	width: 98%;
+	height: 98%;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	position: absolute;
+	left: 1%;
+	top: 1%;
+}
+.select-good-pic-btn {
+	width: 60%;
+	line-height: 100rpx;
+	position: fixed;
+	left: 20%;
+	bottom: 40rpx;
+	text-align: center;
+	font-size: 32rpx;
+	color: #333333;
+	-webkit-border-radius: 54rpx;
+	        border-radius: 54rpx;
+	-webkit-box-shadow: 2rpx 3rpx 26rpx #FFD977;
+	        box-shadow: 2rpx 3rpx 26rpx #FFD977;
+	background: #FFCF4F;
+}
+

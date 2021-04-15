@@ -1,0 +1,82 @@
+
+.order-top-back {
+	width: 100%;
+	height: 275rpx;
+	background: url(http://zzsc.com/static/xcx/order__bg.png) no-repeat;
+	background-size: cover;
+}
+.order-menu-btn {
+	width: 84%;
+	margin: -100rpx auto 0;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	-webkit-box-shadow: 0 0 50rpx #eeeeee;
+	        box-shadow: 0 0 50rpx #eeeeee;
+	padding: 40rpx 30rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	background: #ffffff;
+}
+.order-menu-btn .menu-item {
+	width: 30%;
+	margin-bottom: 40rpx;
+	text-align: center;
+}
+.order-menu-btn::after {
+	content: '';
+	width: 30%;
+	display: block;
+}
+.order-menu-btn .menu-item image {
+	width: 70rpx;
+	height: 70rpx;
+}
+.order-menu-btn .menu-item text {
+	color: #666666;
+	font-size: 28rpx;
+}
+.order-tc-hb {
+	width: 82%;
+	margin: 40rpx auto 0;
+	padding: 36rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	-webkit-box-shadow: 0 0 50rpx #eeeeee;
+	        box-shadow: 0 0 50rpx #eeeeee;
+	background: #ffffff;
+}
+.order-tc-hb view > image {
+	width: 50rpx;
+	height: 50rpx;
+	vertical-align: middle;
+}
+.order-tc-hb view > text {
+	vertical-align: middle;
+	padding-left: 25rpx;
+	font-size: 34rpx;
+	color: #333333;
+}
+.order-tc-hb > .jiantou > text {
+	font-size: 30rpx;
+	color: #666666;
+}
+.order-tc-hb > .jiantou > image {
+	width: 30rpx;
+	height: 30rpx;
+}
+

@@ -1,0 +1,63 @@
+
+.cb-tip {
+	padding: 20rpx 0;
+	font-size: 24rpx;
+	color: #999;
+	background: #f7f7f7;
+	text-align: center;
+}
+.cb-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 20rpx 15rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+.cb-item  > view:nth-child(1) > image {
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.cb-item  > view:nth-child(1){
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.cb-item  > view:nth-child(1) .center {
+	padding-left: 20rpx;
+}
+.cb-item > view:nth-child(1) .center > view:nth-child(1) {
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #000;
+}
+.cb-item > view:nth-child(1) .center > view:nth-child(2) > text:nth-child(1) {
+	font-size: 26rpx;
+	color: #999;
+}
+.cb-item > view:nth-child(1) .center > view:nth-child(2) > text:nth-child(2) {
+	font-size: 26rpx;
+	color: #000000;
+}
+.cb-right > text {
+	font-size: 50rpx;
+	font-weight: bold;
+	color: #000;
+}
+.cb-right > text::after {
+	content: '元';
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #000;
+}
+

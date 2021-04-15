@@ -1,0 +1,184 @@
+
+.my-top {
+	height: 470rpx;
+	background: url(http://zzsc.com/static/xcx/mine_bg.png) no-repeat;
+	background-size: cover;
+}
+.my-user {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 160rpx 60rpx;
+}
+.my-user > view:nth-child(1) view:nth-child(1) {
+	font-size: 40rpx;
+	font-weight: bold;
+	color: #000000;
+}
+.my-user > view:nth-child(1) view:nth-child(2) {
+	font-size: 30rpx;
+	color: #333333;
+}
+.my-user image {
+	width: 120rpx;
+	height: 120rpx;
+}
+.my-zhangben {
+	position: relative;
+	top: -150rpx;
+	width: 90%;
+	padding: 40rpx 0;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 20rpx #d3d3d3;
+	        box-shadow: 0 0 20rpx #d3d3d3;
+	text-align: center;
+}
+.my-zhangben > view:nth-child(1) > text:nth-child(1) {
+	font-size: 30rpx;
+	color: #666;
+}
+.my-zhangben > view:nth-child(2) > text:nth-child(1) {
+	padding-right: 20rpx;
+	font-size: 60rpx;
+	font-weight: bold;
+	color: #000;
+}
+.my-zhangben > view:nth-child(2) > text:nth-child(1)::before {
+	content: '¥';
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #000;
+}
+.my-mnrk {
+	width: 90%;
+	margin: 0 auto;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	-webkit-box-shadow: 0 0 30rpx #f2f2f2;
+	        box-shadow: 0 0 30rpx #f2f2f2;
+}
+.my-mnrk-rk {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 40rpx 20rpx;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.my-mnrk-rk > .left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.my-mnrk-rk > .left > image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.my-mnrk-rk > .left > view {
+	padding-left: 20rpx;
+	font-size: 34rpx;
+	color: #333333;
+}
+.my-mnrk-rk > .right > text {
+	font-size: 60rpx;
+	font-weight: bold;
+	color: #576b95;
+}
+.my-mnrk-rk > .right > text::before {
+	content: '¥';
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #576b95;
+}
+.my-wfh {
+	padding: 30rpx;
+}
+.my-wfh > text:nth-child(2n + 1) {
+	font-size: 30rpx;
+	color: #999999;
+}
+.my-wfh > text:nth-child(2n + 2) {
+	padding-left: 10rpx;
+	font-size: 30rpx;
+	color: #576b95;
+}
+.my-bh-dp {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 90%;
+	padding: 40rpx 0;
+	margin: 20rpx auto 30rpx;
+	-webkit-box-shadow: 0 0 30rpx #f2f2f2;
+	        box-shadow: 0 0 30rpx #f2f2f2;
+}
+.my-bh-dp image {
+	width: 60rpx;
+	height: 60rpx;
+}
+.my-rukou{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 40rpx 40rpx;
+	background: #fff;
+	border-bottom: 1rpx solid  #f0f0f0;
+}
+.my-rukou > .left{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.my-rukou > .left > image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.my-rukou > .left > text{
+	padding-left: 10rpx;
+	font-size: 34rpx;
+	color: #333333;
+}
+.my-rukou > .right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.my-rukou > .right > text{
+	font-size: 30rpx;
+	color: #333333;
+}
+

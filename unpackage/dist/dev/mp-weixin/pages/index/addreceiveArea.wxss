@@ -1,0 +1,74 @@
+
+page {
+	background: #ffffff;
+}
+.addreceivearea-contain {
+	padding: 30rpx;
+}
+.addreceivearea-name{
+	width: calc(100% - 30rpx);
+	height: 100rpx;
+	margin-bottom: 30rpx;
+	padding-left: 30rpx;
+	font-size: 30rpx;
+	color: #000000;
+	background: #f7f7f7;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.placeholder-class {
+	font-size: 30rpx;
+	color: #cccccc !important;
+}
+.addreceivearea-street{
+	width: calc(100% - 30rpx);
+	height: 100rpx;
+	margin-bottom: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding-left: 30rpx;
+	background: #f7f7f7;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.addreceivearea-street .default-tip{
+	font-size: 30rpx;
+	color: #cccccc;
+}
+.addreceivearea-street image{
+	width: 40rpx;
+	height: 30rpx;
+	-webkit-flex-shrink: 1;
+	flex-shrink: 1;
+}
+.addreceivearea-street .get-area-info view:nth-child(1){
+	font-size: 32rpx;
+	color: #333333;
+}
+.addreceivearea-street .get-area-info view:nth-child(2){
+	font-size: 28rpx;
+	color: #999999;
+}
+.addreceivearea-btn {
+	width: 60%;
+	line-height: 100rpx;
+	position: fixed;
+	left: 20%;
+	bottom: 40rpx;
+	text-align: center;
+	font-size: 32rpx;
+	color: #333333;
+	-webkit-border-radius: 54rpx;
+	        border-radius: 54rpx;
+	-webkit-box-shadow: 2rpx 3rpx 26rpx #D9D5D6;
+	        box-shadow: 2rpx 3rpx 26rpx #D9D5D6;
+	background: #CFCBCC;
+}
+

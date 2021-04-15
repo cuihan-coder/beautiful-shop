@@ -1,0 +1,115 @@
+
+.withdraw-info{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 30rpx 30rpx;
+	background: #F7F7F7;
+}
+.withdraw-info > text{
+	font-size: 30rpx;
+	color: #666666;
+}
+.withdraw-info > view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.withdraw-info > view > image{
+	width: 50rpx;
+	height: 50rpx;
+}
+.withdraw-info > view > text{
+	padding-left: 20rpx;
+	font-size: 30rpx;
+	color: #333333;
+}
+.withdraw-box{
+	padding: 30rpx;
+}
+.withdraw-title{
+	font-size: 30rpx;
+	color: #666666;
+}
+.withdraw-input{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100rpx;
+	margin-top: 20rpx;
+	padding-bottom: 20rpx;
+	border-bottom: 1rpx solid #f2f2f2;
+}
+.withdraw-input > text{
+	font-size: 50rpx;
+	color: #000000;
+}
+.withdraw-input > input{
+	height: 100%;
+	padding-left: 20rpx;
+	font-size: 80rpx;
+	font-weight: bold;
+	color: #000000;
+}
+.withdraw-tip{
+	padding: 30rpx 0 ;
+	font-size: 28rpx;
+	color: #666666;
+}
+.withdraw-tip > text:nth-child(2){
+	color: #576B95;
+}
+.withdraw-jg{
+	margin-top: 20rpx;
+}
+.withdraw-jg > view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.withdraw-jg > view > text{
+	font-size: 28rpx;
+	color: #999999;
+}
+.withdraw-footer{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 30rpx 30rpx;
+}
+.withdraw-footer > view {
+	margin-right: 30rpx;
+	text-align: center;
+}
+.withdraw-footer > view > image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.withdraw-footer > view > view{
+	font-size: 24rpx;
+	color: #666666;
+}
+

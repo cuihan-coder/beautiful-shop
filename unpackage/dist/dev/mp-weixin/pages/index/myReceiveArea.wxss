@@ -1,0 +1,65 @@
+
+page {
+	background: #f7f7f7;
+}
+.myreceivearea-contain {
+	padding: 30rpx;
+}
+.myreceivearea-area-item {
+	margin-top: 30rpx;
+	padding: 30rpx;
+	background: #ffffff;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.myreceivearea-area-item .name-phone text:nth-child(1) {
+	font-size: 40rpx;
+	color: #333333;
+	font-weight: 500;
+}
+.myreceivearea-area-item .name-phone text:nth-child(2) {
+	font-size: 36rpx;
+	color: #666666;
+	font-weight: 500;
+	padding-left: 20rpx;
+}
+.myreceivearea-area-item .area {
+	margin-top: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+}
+.myreceivearea-area-item .area view {
+	font-size: 32rpx;
+	color: #999999;
+}
+.myreceivearea-area-item .area image {
+	width: 40rpx;
+	height: 30rpx;
+	-webkit-flex-shrink: 1;
+	flex-shrink: 1;
+}
+.myreceivearea-btn {
+	width: 60%;
+	line-height: 100rpx;
+	position: fixed;
+	left: 20%;
+	bottom: 40rpx;
+	text-align: center;
+	font-size: 32rpx;
+	color: #333333;
+	-webkit-border-radius: 54rpx;
+	        border-radius: 54rpx;
+	-webkit-box-shadow: 2rpx 3rpx 26rpx #FFD977;
+	        box-shadow: 2rpx 3rpx 26rpx #FFD977;
+	background: #FFCF4F;
+}
+

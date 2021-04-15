@@ -1,0 +1,154 @@
+
+.banghuilist-container {
+	width: calc(100% - 40rpx);
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background: #fffffff;
+}
+.banghuilist-product {
+	width: 100%;
+	margin-bottom: 30rpx;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	-webkit-box-shadow: 0 0 30rpx #d3d3d3;
+	        box-shadow: 0 0 30rpx #d3d3d3;
+}
+.banghuilist-product > image {
+	width: 100%;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.banghuilist-product .title {
+	padding: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: baseline;
+	-webkit-align-items: baseline;
+	        align-items: baseline;
+}
+.banghuilist-product .title > view:nth-child(1) > text:nth-child(1) {
+	color: #333333;
+	font-size: 60rpx;
+	font-weight: bold;
+}
+.banghuilist-product .title > view:nth-child(1) > text:nth-child(2) {
+	color: #333333;
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.banghuilist-product .title > text {
+	color: #cccccc;
+	font-size: 30rpx;
+}
+.banghuilist-product .pics {
+	padding: 20rpx 20rpx 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.banghuilist-product .pics > text {
+	color: #333333;
+	font-size: 30rpx;
+}
+.banghuilist-product .pics > image {
+	width: 100rpx;
+	height: 100rpx;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.banghuilist-firstorder {
+	width: calc(100% - 40rpx);
+	margin-bottom: 30rpx;
+	padding: 20rpx;
+	text-align: center;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+	background-color: #f7f7f7;
+	background-image: url(http://zzsc.com/static/xcx/okbeij.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0 0 30rpx #d3d3d3;
+	        box-shadow: 0 0 30rpx #d3d3d3;
+}
+.banghuilist-firstorder .question {
+	width: 60rpx;
+	height: 60rpx;
+	margin-left: 90%;
+}
+.banghuilist-firstorder .shousha {
+	color: #666666;
+	font-size: 50rpx;
+	font-weight: bold;
+	text-align: center;
+}
+.banghuilist-firstorder .headimgurl {
+	width: 160rpx;
+	height: 160rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	vertical-align: ;
+}
+.banghuilist-firstorder .busname {
+	color: #666666;
+	font-size: 34rpx;
+	font-weight: 500;
+}
+.banghuilist-firstorder .sales {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.banghuilist-firstorder .sales > .pics > image {
+	width: 50rpx;
+	height: 50rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	vertical-align: middle;
+}
+.banghuilist-firstorder .sales > .pics > text {
+	color: #999999;
+	font-size: 24rpx;
+	padding-left: 20rpx;
+}
+.banghuilist-firstorder .sales >  view{
+	color: #CCCCCC;
+	font-size: 24rpx;
+}
+
+

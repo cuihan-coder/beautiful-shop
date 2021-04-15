@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "pub-footer": "/components/public/footer"
+  }
+}

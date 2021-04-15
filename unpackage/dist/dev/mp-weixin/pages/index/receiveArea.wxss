@@ -1,0 +1,59 @@
+
+.receivearea-contain {
+	padding: 30rpx 30rpx 100rpx;
+}
+.receivearea-title {
+	padding-left: 20rpx;
+	font-size: 60rpx;
+	color: #000000;
+	font-weight: 500;
+}
+.receivearea-shouming {
+	margin-top: 40rpx;
+	margin-bottom: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 34rpx;
+	color: #333333;
+	padding-left: 20rpx;
+}
+.receivearea-shouming navigator {
+	color: #5a6b92;
+}
+.receivearea-card {
+	margin-top: 30rpx;
+	background: #f7f7f7;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.receivearea-card .goods-name {
+	font-size: 38rpx;
+	color: #333333;
+	font-weight: 500;
+	padding: 30rpx;
+	border-bottom: 1rpx solid #e4e4e4;
+}
+.area-check {
+	padding: 30rpx;
+}
+.van-radio {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+.receivearea-btn {
+	width: 60%;
+	line-height: 100rpx;
+	position: fixed;
+	left: 20%;
+	bottom: 40rpx;
+	text-align: center;
+	font-size: 32rpx;
+	color: #333333;
+	-webkit-border-radius: 54rpx;
+	        border-radius: 54rpx;
+	-webkit-box-shadow: 2rpx 3rpx 26rpx #d3d3d3;
+	        box-shadow: 2rpx 3rpx 26rpx #d3d3d3;
+	background: #ffffff;
+}
+

@@ -1,0 +1,1 @@
+<view class="mycreatevoucher-container"><block wx:for="{{8}}" wx:for-item="item" wx:for-index="__i0__" wx:key="*this"><view class="coupon-item"><view class="left"><view>新年快乐大优惠</view><view>生效时间：2021-04-09 23:11:22</view><view>过期时间：2021-04-09 23:11:22</view></view><view class="right"><view>9999</view><view>满99.01使用</view></view></view></block></view>
